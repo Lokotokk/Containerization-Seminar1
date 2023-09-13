@@ -81,9 +81,15 @@ Cоздаем каталог "hmseminar1" в домашнем каталоге:
 `unshare --net --pid --fork --mount-proc /bin/bash`  
 `ps aux`  
 
-### История команд:
+### История команд:  
+![](https://github.com/Lokotokk/Containerization-Seminar1/blob/main/images/history1.png)  
 
+![](https://github.com/Lokotokk/Containerization-Seminar1/blob/main/images/history2.png)  
 
-
-### Скриншоты выполнения:
+### Скриншоты выполнения:  
+![](https://github.com/Lokotokk/Containerization-Seminar1/blob/main/images/1net.png)  
+![](https://github.com/Lokotokk/Containerization-Seminar1/blob/main/images/2net.png)  
+![](https://github.com/Lokotokk/Containerization-Seminar1/blob/main/images/3net.png)  
+![](https://github.com/Lokotokk/Containerization-Seminar1/blob/main/images/4net.png)  
+![](https://github.com/Lokotokk/Containerization-Seminar1/blob/main/images/5net.png)
 
