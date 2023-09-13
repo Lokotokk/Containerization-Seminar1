@@ -58,24 +58,17 @@ Cоздаем каталог "hmseminar1" в домашнем каталоге:
 ![](https://github.com/Lokotokk/Containerization-Seminar1/blob/main/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202023-09-13%2009-31-30.png)
 
 
+Создадим сетевое пространство имен с именем "hmsem1ns":  
+`ip netns add hmsem1ns`  
+если вы не под пользователем root, то нужно использовать sudo  
 
-
-
-
-
-
-
-Создадим сетевое пространство имен с именем "hmsem1ns":
-`ip netns add hmsem1ns`
-если вы не под пользователем root, то нужно использовать sudo
-
-`sudo ip netns add hmsem1ns` 
+`sudo ip netns add hmsem1ns`   
 
 Выполняем процесс в созданном пространстве имен:  
 `netns exec hmsem1ns bas`h  
 если вы не под пользователем root, то нужно использовать sudo  
 
-`sudo netns exec hmsem1ns bash`
+`sudo netns exec hmsem1ns bash`  
 
 Выполняем команду, чтобы увидеть сетевые настройки:  
 `ip a`
@@ -85,11 +78,12 @@ Cоздаем каталог "hmseminar1" в домашнем каталоге:
 
 Углубляем уровень изоляции:  
 Изоляция по Процессам и Файловой Системе:  
-`unshare --net --pid --fork --mount-proc /bin/bash`
-`ps aux`
+`unshare --net --pid --fork --mount-proc /bin/bash`  
+`ps aux`  
 
-История команд:
+### История команд:
 
 
-Скриншоты выполнения:
+
+### Скриншоты выполнения:
 
